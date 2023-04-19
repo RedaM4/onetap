@@ -11,16 +11,40 @@
     box-shadow: 0 9px #484849;
   }
   
-  .myButton:hover {background-color: #4CCC4C}
+  .myButton:hover {
+    
+    background-color: #4CCC4C}
   
   .myButton:active {
     background-color: #4CCC4C;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+
+  div.form
+  {
+      display: block;
+      text-align: center;
+  }
+
+  form { 
+    display: inline-block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    }
+
+
+
+
+
+
+
   body{
     background-color:#000000 ;
-   background-image: url("images.jpg");
-   background-repeat: no-repeat;
+   background-image: url("kira-yoshikage-wallpapers.jpg");
+   /*background-repeat: no-repeat; */
    background-size: cover;
 }
